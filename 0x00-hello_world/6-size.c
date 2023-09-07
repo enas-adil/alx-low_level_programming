@@ -8,7 +8,7 @@
 int main(void)
 {
 	sizeof(char);
-	sizeof(int)
+	sizeof(int);
 	sizeof(long);
 	sizeof(long long);
 	sizeof(float);
