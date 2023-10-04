@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include <stdlib.h>
+
 /**
  * main - return arguments count
  * @argc : count
@@ -7,17 +9,18 @@
 */
 int main(int argc, char *argv[])
 {
-	int result;
+	int i, j, mul;
 
-	if (argc > 1)
-	{
-		result = argv[1] * argv[2];
-		printf("%d", result);
-		return (0);
-	}
-	else
+	if (argc <= 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
+
+	i = atoi(argv[1]);
+	j = atoi(argv[2]);
+	mul = i * j;
+
+	printf("%d\n", mul);
+	return (0);
 }
