@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - print out 
+ * main - print out
  * Return: Always 0
 */
-int main ()
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
